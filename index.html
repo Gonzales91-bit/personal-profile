@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rolando T. Gonzales Jr. - CV</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#eef2f7;
+    padding:40px;
+    color:#2d3748;
+}
+
+.cv{
+    max-width:1100px;
+    margin:auto;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.header{
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    color:white;
+    padding:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.profile-info h1{
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.profile-info h3{
+    font-weight:400;
+    opacity:.9;
+    margin-bottom:20px;
+}
+
+.contact{
+    display:grid;
+    gap:8px;
+    font-size:14px;
+}
+
+.photo{
+    width:160px;
+    height:160px;
+    border-radius:20px;
+    overflow:hidden;
+    border:5px solid rgba(255,255,255,.2);
+}
+
+.photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.content{
+    display:grid;
+    grid-template-columns:300px 1fr;
+}
+
+.sidebar{
+    background:#f8fafc;
+    padding:35px;
+}
+
+.main{
+    padding:35px;
+}
+
+.section{
+    margin-bottom:35px;
+}
+
+.section-title{
+    font-size:14px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#2563eb;
+    margin-bottom:15px;
+    font-weight:700;
+}
+
+.skill{
+    background:white;
+    padding:10px 14px;
+    border-radius:10px;
+    margin-bottom:10px;
+    border:1px solid #e5e7eb;
+}
+
+.timeline-item{
+    margin-bottom:25px;
+    padding-left:20px;
+    border-left:3px solid #2563eb;
+}
+
+.timeline-item h4{
+    margin-bottom:5px;
+}
+
+.date{
+    color:#64748b;
+    font-size:14px;
+    margin-bottom:8px;
+}
+
+.tag{
+    display:inline-block;
+    padding:8px 14px;
+    background:#dbeafe;
+    color:#1e40af;
+    border-radius:50px;
+    margin:5px;
+    font-size:13px;
+    font-weight:500;
+}
+
+.project{
+    background:#f8fafc;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:18px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+@media(max-width:900px){
+    .content{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        flex-direction:column-reverse;
+        text-align:center;
+        gap:20px;
+    }
+    
+.justify{
+    text-align: justify;
+}    
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv">
+
+    <div class="header">
+
+        <div class="profile-info">
+            <h1>ROLANDO T. GONZALES JR.</h1>
+            <h3>BS Computer Science</h3>
+
+            <div class="contact">
+                <span>📍 San Fabian, Pangasinan</span>
+                <span>📞 0954-462-3820</span>
+                <span>✉ rgonzales23101523@student.dmmmsu.edu.ph</span>
+            </div>
+        </div>
+
+        <div class="photo">
+            <img src="pfp.png" alt="Profile">
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <aside class="sidebar">
+
+            <div class="section">
+                <div class="section-title">Skills</div>
+
+                <div class="skill">Web Development</div>
+                <div class="skill">Software Development</div>
+                <div class="skill">Arduino Programming</div>
+                <div class="skill">Internet of Things</div>
+                <div class="skill">Graphic Design</div>
+                <div class="skill">Project Management</div>
+                <div class="skill">Teamwork</div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Technologies</div>
+
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">VB.net</span>
+                <span class="tag">C</span>
+                <span class="tag">Arduino</span>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Certifications</div>
+
+                <ul>
+                     <li>With Honors(Senior High School)</li>                   
+                    <li>Certificate of Digital Literacy Training -DICT</li>
+                    <li>Certificate of Introduction to NLP -Great Learning</li>
+                    <li>Certificate of Data Science -Cisco Networking Academy</li>
+                    <li>Completed Work Immersion at San Fabian Post Office</li>
+                    <li>Complete On the Job Training at San Fabian PIO</li>
+                </ul>
+            </div>
+
+        </aside>
+
+        <main class="main">
+            <div class="section">
+            <div class="section">
+                <div class="section-title">Educational Background</div>
+
+                <div class="timeline-item">
+                     <h4>TERTIARY</h4>
+                    <h4>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</h4>
+                    <div class="date">2023 - 2027</div>
+                    <p>Don Mariano Marcos Memorial State University -SLUC</p>
+                    <p>Consolasion, Agoo, La Union</p>
+                    <br>
+                    <h4>SENIOR HIGH SCHOOL</h4>
+                    <h4>Humanities and Social Sciences</h4>
+                    <div class="date">2021 - 2023</div>
+                    <p>San Fabian National High School</p>
+                    <p>Nibaliw West, San Fabian, Pangasinan</p>
+                    <br>
+                    <h4>JUNIOR HIGH SCHOOL</h4>
+                    <div class="date">2017 - 2021</div>
+                    <p>San Fabian National High School</p>
+                    <p>Nibaliw West, San Fabian, Pangasinan</p>
+                     <br>
+                    <h4>ELEMENTARY</h4>
+                    <div class="date">2011 - 2017</div>
+                    <p>San Fabian East Central Elementary School</p>
+                    <p>Poblacion, San Fabian, Pangasinan</p>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">Research Project</div>
+
+                <div class="project">
+                    <h4>Student Information System - SFNHS</h4>
+
+                    <p style="text-align: justify;">
+                        Developed a digital information management system
+                        designed to streamline student records, improve
+                        accessibility of data, and support school
+                        administrative operations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Work Experience</div>
+
+                <div class="timeline-item">
+                     <h4>Municipality of San Fabian - Public Information Office</h4>
+                    <div class="date">May 2026</div>
+                    <p style="text-align: justify;">
+                    Assisted in digital journalism, media documentation, 
+                    and public relations. Captured high-quality event photography 
+                    and video, transcribed 
+                    speeches, and drafted press releases for local governance programs. 
+                    Contributed to community graphic design initiatives, such as event 
+                    layouts and posters, while efficiently handling frontline administrative 
+                     tasks, including affidavits and clearance processing.
+                    </p>
+                    <br>
+                    <h4>Municipality of San Fabian - Post Office</h4>
+                    <div class="date">May 2023</div>
+                    <p style="text-align: justify;">
+                        Assisted office operations, document processing,
+                        records management, and customer service tasks.
+                    </p>
+                </div>
+            </div>
+
+
+        </main>
+
+    </div>
+
+</div>
+
+</body>
+</html>
